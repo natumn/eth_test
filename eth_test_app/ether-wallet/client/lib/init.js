@@ -10,3 +10,9 @@ EthAccounts.init();
 
 // EthBlocksの初期化
 EthBlocks.init();
+
+// Session変数を初期化
+initSessionVars();
+
+// オブサーバーの起動
+observeNode();
